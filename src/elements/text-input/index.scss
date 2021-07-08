@@ -1,0 +1,32 @@
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	height: 4rem;
+	background: var(--anthracite-100);
+	border: 1px solid var(--anthracite-200);
+	border-radius: 0.5rem;
+	padding: 0 1rem;
+	font-size: 2rem;
+	font-family: inherit;
+	color: var(--anthracite-700);
+	line-height: normal;
+	-webkit-appearance: none;
+	transition: all ease 300ms;
+
+	&:hover {
+		border-color: var(--anthracite-400);
+	}
+
+	&:focus {
+		outline: none;
+		border-color: var(--blue-400);
+	}
+
+	&::placeholder {
+		color: var(--anthracite-500);
+	}
+
+	&:-ms-input-placeholder {
+		color: var(--anthracite-500);
+	}
+}

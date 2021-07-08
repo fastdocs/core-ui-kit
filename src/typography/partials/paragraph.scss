@@ -1,0 +1,13 @@
+p {
+	font-size: 2rem;
+	line-height: 2.5rem;
+	margin: 2rem 0 0 0;
+
+	&:only-child {
+		margin: 0;
+	}
+}
+
+div {
+	font-size: 2rem;
+}

@@ -1,0 +1,37 @@
+select {
+	height: 4.25rem;
+	background: var(--anthracite-100);
+	border: 1px solid var(--anthracite-200);
+	border-radius: 0.5rem;
+	padding: 0 4.25rem 0 1rem;
+	font-size: 2rem;
+	font-family: inherit;
+	color: var(--anthracite-700);
+	line-height: 1.5;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	transition: all ease 300ms;
+	width: 100%;
+	cursor: pointer;
+	text-overflow: ellipsis;
+	overflow: hidden;
+
+	&:hover {
+		border-color: var(--anthracite-400);
+	}
+
+	&:focus {
+		outline: none;
+		border-color: var(--blue-400);
+	}
+
+	&::placeholder {
+		color: var(--anthracite-500);
+		line-height: 2.6rem;
+	}
+
+	&:-ms-input-placeholder {
+		color: var(--anthracite-500);
+		line-height: 2.6rem;
+	}
+}

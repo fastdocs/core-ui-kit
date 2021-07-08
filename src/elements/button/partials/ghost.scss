@@ -1,0 +1,12 @@
+.ghost {
+	color: var(--blue-400);
+	background: transparent;
+
+	&:hover {
+		background-color: var(--anthracite-200);
+	}
+
+	&:active {
+		background: var(--anthracite-300);
+	}
+}

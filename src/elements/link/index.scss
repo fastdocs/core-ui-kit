@@ -1,0 +1,9 @@
+a {
+	color: var(--anthracite-700);
+	text-decoration-color: var(--blue-400);
+	line-height: inherit;
+
+	&:hover {
+		color: var(--blue-400);
+	}
+}

@@ -1,0 +1,13 @@
+.secondary {
+	color: var(--anthracite-700);
+	background: var(--anthracite-100);
+
+	&:hover {
+		color: var(--anthracite-700);
+		background: var(--anthracite-200);
+	}
+
+	&:active {
+		background: var(--anthracite-300);
+	}
+}

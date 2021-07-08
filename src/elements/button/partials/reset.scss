@@ -1,0 +1,18 @@
+button,
+.button {
+	display: inline-block;
+	border-radius: 0.5rem;
+	padding: 0.9rem 2rem;
+	border: 0.125rem solid transparent;
+	transition: all ease 250ms;
+	cursor: pointer;
+	outline: none;
+	font-size: inherit;
+	font-family: inherit;
+	text-decoration: none;
+
+	&:disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
+	}
+}

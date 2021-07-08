@@ -1,0 +1,9 @@
+.primary {
+	background: var(--blue-400);
+	color: var(--white);
+
+	&:hover {
+		background-color: darken(hsl(216, 100%, 40%), 10);
+		color: var(--white);
+	}
+}

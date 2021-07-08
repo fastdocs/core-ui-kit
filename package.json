@@ -1,0 +1,12 @@
+{
+	"name": "@fastdocs/ui-kit",
+	"version": "1.0.0",
+	"license": "MIT",
+	"main": "index.css",
+	"dependencies": {
+		"node-sass": "^6.0.1"
+	},
+	"scripts": {
+		"compile": "node-sass ./src/index.scss ./index.css"
+	}
+}

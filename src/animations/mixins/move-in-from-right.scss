@@ -1,0 +1,17 @@
+@mixin move-in-from-right {
+	@keyframes move-in-from-right {
+		0% {
+			transform: translateX(100%);
+		}
+		100% {
+			transform: translateX(0);
+		}
+	}
+
+	transform: translateX(100%);
+	animation-name: move-in-from-right;
+	animation-duration: 450ms;
+	animation-timing-function: cubic-bezier(0.8, 0, 0, 0.8);
+	animation-fill-mode: forwards;
+	animation-direction: normal;
+}

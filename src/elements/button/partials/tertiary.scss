@@ -1,0 +1,10 @@
+.tertiary {
+	border: 1px solid var(--blue-400);
+	color: var(--blue-400);
+	background: var(--white);
+
+	&:hover {
+		color: var(--white);
+		background-color: var(--blue-400);
+	}
+}

@@ -1,0 +1,10 @@
+.danger {
+	color: var(--red-500);
+	border-color: var(--red-500);
+	background-color: transparent;
+
+	&:hover {
+		background: var(--red-500);
+		color: var(--white);
+	}
+}
