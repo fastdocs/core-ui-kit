@@ -3,10 +3,15 @@
 	"version": "1.0.0",
 	"license": "MIT",
 	"main": "index.css",
-	"dependencies": {
-		"node-sass": "^6.0.1"
-	},
 	"scripts": {
-		"compile": "node-sass ./src/index.scss ./index.css"
+		"compile-scss-files": "node-sass ./src/index.scss ./dist/index.css",
+		"prefix-and-minify": "postcss ./dist/index.css -o ./dist/index.min.css",
+		"build": "npm run compile-scss-files && npm run prefix-and-minify"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.2.6",
+		"cssnano": "^5.0.6",
+		"node-sass": "^6.0.1",
+		"postcss-cli": "^8.3.1"
 	}
 }

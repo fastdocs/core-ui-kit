@@ -9,12 +9,14 @@ input[type="radio"] {
 	&::before {
 		position: absolute;
 		display: block;
-		content: "";
+		content: ".scss";
 		background: var(--anthracite-100);
 		border: 1px solid var(--anthracite-300);
 		border-radius: 100rem;
 		height: 2rem;
 		width: 2rem;
+		box-shadow: 0 0 0 0.25rem transparent;
+		outline: none;
 		transform: translate3d(-2px, -1px, 0);
 		transition: all ease 250ms;
 	}
@@ -22,7 +24,7 @@ input[type="radio"] {
 	&::after {
 		position: absolute;
 		display: block;
-		content: "";
+		content: ".scss";
 		background: var(--blue-400);
 		border: 1px solid var(--blue-400);
 		border-radius: 100rem;
@@ -37,6 +39,7 @@ input[type="radio"] {
 
 	&:hover {
 		&:before {
+			box-shadow: 0 0 0 0.25rem var(--anthracite-200);
 			border-color: var(--anthracite-400);
 		}
 	}
@@ -45,6 +48,7 @@ input[type="radio"] {
 		outline: none;
 
 		&:before {
+			box-shadow: 0 0 0 0.25rem var(--blue-100);
 			border-color: var(--blue-400);
 		}
 	}

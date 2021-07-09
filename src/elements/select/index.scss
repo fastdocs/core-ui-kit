@@ -10,6 +10,8 @@ select {
 	line-height: 1.5;
 	-webkit-appearance: none;
 	-moz-appearance: none;
+	box-shadow: 0 0 0 0.25rem transparent;
+	outline: none;
 	transition: all ease 300ms;
 	width: 100%;
 	cursor: pointer;
@@ -17,11 +19,12 @@ select {
 	overflow: hidden;
 
 	&:hover {
+		box-shadow: 0 0 0 0.25rem var(--anthracite-200);
 		border-color: var(--anthracite-400);
 	}
 
 	&:focus {
-		outline: none;
+		box-shadow: 0 0 0 0.25rem var(--blue-100);
 		border-color: var(--blue-400);
 	}
 

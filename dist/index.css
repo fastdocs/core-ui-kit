@@ -210,7 +210,11 @@ button,
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
+  .checkbox-container .checkmark {
+    box-shadow: 0 0 0 0.25rem transparent;
+    transition: all ease 300ms; }
   .checkbox-container:hover input ~ .checkmark {
+    box-shadow: 0 0 0 0.25rem var(--anthracite-200);
     border-color: var(--anthracite-400); }
   .checkbox-container input {
     position: absolute;
@@ -224,6 +228,7 @@ button,
       .checkbox-container input:checked ~ .checkmark:after {
         display: block; }
     .checkbox-container input:focus ~ .checkmark {
+      box-shadow: 0 0 0 0.25rem var(--blue-100);
       border-color: var(--blue-400); }
   .checkbox-container .checkmark {
     position: absolute;
@@ -233,9 +238,10 @@ button,
     width: 2rem;
     background: var(--anthracite-100);
     border: 1px solid var(--anthracite-200);
+    outline: transparent solid 0.25rem;
     border-radius: 0.5rem; }
     .checkbox-container .checkmark:after {
-      content: "";
+      content: ".scss";
       position: absolute;
       display: none;
       left: 0;
@@ -271,13 +277,16 @@ input[type="number"] {
   font-size: 2rem;
   color: var(--anthracite-700);
   line-height: normal;
+  box-shadow: 0 0 0 0.25rem transparent;
+  outline: none;
   -webkit-appearance: none;
   transition: all ease 300ms;
   font-family: inherit; }
   input[type="number"]:hover {
+    box-shadow: 0 0 0 0.25rem var(--anthracite-200);
     border-color: var(--anthracite-400); }
   input[type="number"]:focus {
-    outline: none;
+    box-shadow: 0 0 0 0.25rem var(--blue-100);
     border-color: var(--blue-400); }
   input[type="number"]::placeholder {
     color: var(--anthracite-500); }
@@ -294,18 +303,20 @@ input[type="radio"] {
   input[type="radio"]::before {
     position: absolute;
     display: block;
-    content: "";
+    content: ".scss";
     background: var(--anthracite-100);
     border: 1px solid var(--anthracite-300);
     border-radius: 100rem;
     height: 2rem;
     width: 2rem;
+    box-shadow: 0 0 0 0.25rem transparent;
+    outline: none;
     transform: translate3d(-2px, -1px, 0);
     transition: all ease 250ms; }
   input[type="radio"]::after {
     position: absolute;
     display: block;
-    content: "";
+    content: ".scss";
     background: var(--blue-400);
     border: 1px solid var(--blue-400);
     border-radius: 100rem;
@@ -317,10 +328,12 @@ input[type="radio"] {
     transform-origin: center center;
     transition: all ease 250ms; }
   input[type="radio"]:hover:before {
+    box-shadow: 0 0 0 0.25rem var(--anthracite-200);
     border-color: var(--anthracite-400); }
   input[type="radio"]:focus {
     outline: none; }
     input[type="radio"]:focus:before {
+      box-shadow: 0 0 0 0.25rem var(--blue-100);
       border-color: var(--blue-400); }
   input[type="radio"]:checked:after {
     transform: scale(0.6); }
@@ -337,15 +350,18 @@ select {
   line-height: 1.5;
   -webkit-appearance: none;
   -moz-appearance: none;
+  box-shadow: 0 0 0 0.25rem transparent;
+  outline: none;
   transition: all ease 300ms;
   width: 100%;
   cursor: pointer;
   text-overflow: ellipsis;
   overflow: hidden; }
   select:hover {
+    box-shadow: 0 0 0 0.25rem var(--anthracite-200);
     border-color: var(--anthracite-400); }
   select:focus {
-    outline: none;
+    box-shadow: 0 0 0 0.25rem var(--blue-100);
     border-color: var(--blue-400); }
   select::placeholder {
     color: var(--anthracite-500);
@@ -372,16 +388,19 @@ input[type="password"] {
   font-family: inherit;
   color: var(--anthracite-700);
   line-height: normal;
+  box-shadow: 0 0 0 0.25rem transparent;
+  outline: none;
   -webkit-appearance: none;
   transition: all ease 300ms; }
   input[type="text"]:hover,
   input[type="email"]:hover,
   input[type="password"]:hover {
+    box-shadow: 0 0 0 0.25rem var(--anthracite-200);
     border-color: var(--anthracite-400); }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="password"]:focus {
-    outline: none;
+    box-shadow: 0 0 0 0.25rem var(--blue-100);
     border-color: var(--blue-400); }
   input[type="text"]::placeholder,
   input[type="email"]::placeholder,
@@ -401,12 +420,15 @@ textarea {
   font-family: inherit;
   color: var(--anthracite-700);
   line-height: normal;
+  box-shadow: 0 0 0 0.25rem transparent;
+  outline: none;
   -webkit-appearance: none;
   transition: all ease 300ms; }
   textarea:hover {
+    box-shadow: 0 0 0 0.25rem var(--anthracite-200);
     border-color: var(--anthracite-400); }
   textarea:focus {
-    outline: none;
+    box-shadow: 0 0 0 0.25rem var(--blue-100);
     border-color: var(--blue-400); }
   textarea::placeholder {
     color: var(--anthracite-500); }

@@ -7,15 +7,18 @@ textarea {
 	font-family: inherit;
 	color: var(--anthracite-700);
 	line-height: normal;
+	box-shadow: 0 0 0 0.25rem transparent;
+	outline: none;
 	-webkit-appearance: none;
 	transition: all ease 300ms;
 
 	&:hover {
+		box-shadow: 0 0 0 0.25rem var(--anthracite-200);
 		border-color: var(--anthracite-400);
 	}
 
 	&:focus {
-		outline: none;
+		box-shadow: 0 0 0 0.25rem var(--blue-100);
 		border-color: var(--blue-400);
 	}
 

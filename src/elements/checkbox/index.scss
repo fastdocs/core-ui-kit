@@ -9,7 +9,13 @@
 	-ms-user-select: none;
 	user-select: none;
 
+	.checkmark {
+		box-shadow: 0 0 0 0.25rem transparent;
+		transition: all ease 300ms;
+	}
+
 	&:hover input ~ .checkmark {
+		box-shadow: 0 0 0 0.25rem var(--anthracite-200);
 		border-color: var(--anthracite-400);
 	}
 
@@ -30,6 +36,7 @@
 		}
 
 		&:focus ~ .checkmark {
+			box-shadow: 0 0 0 0.25rem var(--blue-100);
 			border-color: var(--blue-400);
 		}
 	}
@@ -42,10 +49,11 @@
 		width: 2rem;
 		background: var(--anthracite-100);
 		border: 1px solid var(--anthracite-200);
+		outline: transparent solid 0.25rem;
 		border-radius: 0.5rem;
 
 		&:after {
-			content: "";
+			content: ".scss";
 			position: absolute;
 			display: none;
 			left: 0;
