@@ -10,14 +10,14 @@ Download or clone the repo and add the `index.min.css` file from the `dist` fold
 
 ### Button
 
-| Style        | Options                                         |
-| ------------ | ----------------------------------------------- |
-|  `primary`   | `big`, `full-width` `center`, `silent`, `small` |
-|  `secondary` | `big`, `full-width` `center`, `silent`, `small` |
-|  `tertiary`  | `big`, `full-width` `center`, `silent`, `small` |
-|  `ghost`     | `big`, `full-width` `center`, `silent`, `small` |
-|  `icon`      | `big`, `full-width` `center`, `silent`, `small` |
-|  `danger`    | `big`, `full-width` `center`, `silent`, `small` |
+| Style        | Options                                          |
+| ------------ | ------------------------------------------------ |
+|  `primary`   | `big`, `full-width`, `center`, `silent`, `small` |
+|  `secondary` | `big`, `full-width`, `center`, `silent`, `small` |
+|  `tertiary`  | `big`, `full-width`, `center`, `silent`, `small` |
+|  `ghost`     | `big`, `full-width`, `center`, `silent`, `small` |
+|  `icon`      | `big`, `full-width`, `center`, `silent`, `small` |
+|  `danger`    | `big`, `full-width`, `center`, `silent`, `small` |
 
 ### Media Queries
 
