@@ -2,46 +2,46 @@
   --ui-overlay: rgba(38, 57, 90, 0.8);
   --white: #ffffff;
   --gray-200: #dbdbdb;
-  --gray-300: #b6b6b6;
-  --gray-400: #6d6d6d;
-  --gray-500: #6d6d6d;
-  --gray-600: #494949;
+  --gray-300: #b5b5b5;
+  --gray-400: #6e6e6e;
+  --gray-500: #6e6e6e;
+  --gray-600: #4a4a4a;
   --black: #242424;
   --blue-100: #b3d1ff;
   --blue-200: #66a3ff;
-  --blue-300: #1a76ff;
+  --blue-300: #1a75ff;
   --blue-400: #0052cc;
   --blue-500: #003d99;
   --blue-600: #002966;
   --blue-700: #001433;
-  --anthracite-100: #f2f4f7;
-  --anthracite-200: #e5eaf0;
-  --anthracite-300: #d8e0e8;
-  --anthracite-400: #cbd5e0;
-  --anthracite-500: #889fb8;
-  --anthracite-600: #506986;
+  --anthracite-100: #f2f5f7;
+  --anthracite-200: #e6eaf0;
+  --anthracite-300: #d9e0e8;
+  --anthracite-400: #ccd6e0;
+  --anthracite-500: #89a0b8;
+  --anthracite-600: #506a86;
   --anthracite-700: #283543;
-  --green-100: #d9f4e4;
-  --green-200: #b3e9c8;
-  --green-300: #8edead;
-  --green-400: #68d391;
-  --green-500: #35b767;
-  --green-600: #247a45;
-  --green-700: #123d22;
-  --yellow-100: #fdebd5;
-  --yellow-200: #fbd6aa;
-  --yellow-300: #f8c280;
-  --yellow-400: #f6ad55;
-  --yellow-500: #ec870c;
-  --yellow-600: #9d5a08;
-  --yellow-700: #4f2d04;
-  --red-100: #fee0e0;
-  --red-200: #fec0c0;
+  --green-100: #d7f4e2;
+  --green-200: #b4e9c8;
+  --green-300: #8cdeac;
+  --green-400: #69d392;
+  --green-500: #35b666;
+  --green-600: #247b45;
+  --green-700: #113b21;
+  --yellow-100: #fdead3;
+  --yellow-200: #fbd8ad;
+  --yellow-300: #f8c381;
+  --yellow-400: #f6ae55;
+  --yellow-500: #ed880c;
+  --yellow-600: #9b5908;
+  --yellow-700: #4e2c04;
+  --red-100: #fee1e1;
+  --red-200: #fdbebe;
   --red-300: #fda1a1;
-  --red-400: #fc8181;
-  --red-500: #fa2424;
-  --red-600: #ba0404;
-  --red-700: #5d0202; }
+  --red-400: #fc8383;
+  --red-500: #f92424;
+  --red-600: #b80505;
+  --red-700: #5e0202; }
 
 body {
   margin: 0;
@@ -67,9 +67,11 @@ ul {
 
 html,
 body {
-  font-size: 8px;
+  --baseline: 8px;
   font-family: "Source Sans Pro", sans-serif;
+  font-size: var(--baseline);
   line-height: 1;
+  font-weight: 400;
   color: var(--anthracite-700); }
 
 h1,
