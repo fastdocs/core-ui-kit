@@ -1,69 +1,52 @@
-// Brand Colors
-$color__blue-40: hsl(216, 100%, 40%) !default;
-$color__black-25: hsl(218, 41%, 25%) !default;
-
-// UI Color Scheme
-$color__white: hsl(0, 0%, 100%) !default;
-$color__black-25: hsl(218, 41%, 25%) !default;
-$color__blue-97: hsl(216, 33%, 97%) !default;
-$color__gray-78: hsl(210, 9%, 78%) !default;
-$color__gray-91: hsl(216, 11%, 91%) !default;
-$color__gray-96: hsl(216, 11%, 96%) !default;
-
-// Accent Colors
-$color__red-70: hsl(0, 100%, 70%) !default;
-$color__yellow-75: hsl(40, 100%, 75%) !default;
-
 // Utility Colors
 $overlay: hsla(218, 41%, 25%, 0.8) !default;
-$placeholder: hsla(218, 41%, 25%, 0.3) !default;
 
 $white: #ffffff;
 
-$gray-200: #dbdbdb;
-$gray-300: #b6b6b6;
-$gray-400: #6d6d6d;
-$gray-500: #6d6d6d;
-$gray-600: #494949;
+$gray-200: hsl(0, 0%, 86%);
+$gray-300: hsl(0, 0%, 71%);
+$gray-400: hsl(0, 0%, 43%);
+$gray-500: hsl(0, 0%, 43%);
+$gray-600: hsl(0, 0%, 29%);
 
-$black: #242424;
+$black: hsl(0, 0%, 14%);
 
-$blue-100: #b3d1ff;
-$blue-200: #66a3ff;
-$blue-300: #1a76ff;
-$blue-400: #0052cc;
-$blue-500: #003d99;
-$blue-600: #002966;
-$blue-700: #001433;
+$blue-100: hsl(216, 100%, 85%);
+$blue-200: hsl(216, 100%, 70%);
+$blue-300: hsl(216, 100%, 55%);
+$blue-400: hsl(216, 100%, 40%);
+$blue-500: hsl(216, 100%, 30%);
+$blue-600: hsl(216, 100%, 20%);
+$blue-700: hsl(216, 100%, 10%);
 
-$anthracite-100: #f2f4f7;
-$anthracite-200: #e5eaf0;
-$anthracite-300: #d8e0e8;
-$anthracite-400: #cbd5e0;
-$anthracite-500: #889fb8;
-$anthracite-600: #506986;
-$anthracite-700: #283543;
+$anthracite-100: hsl(211, 25%, 96%);
+$anthracite-200: hsl(211, 25%, 92%);
+$anthracite-300: hsl(211, 25%, 88%);
+$anthracite-400: hsl(211, 25%, 84%);
+$anthracite-500: hsl(211, 25%, 63%);
+$anthracite-600: hsl(211, 25%, 42%);
+$anthracite-700: hsl(211, 25%, 21%);
 
-$green-100: #d9f4e4;
-$green-200: #b3e9c8;
-$green-300: #8edead;
-$green-400: #68d391;
-$green-500: #35b767;
-$green-600: #247a45;
-$green-700: #123d22;
+$green-100: hsl(143, 55%, 90%);
+$green-200: hsl(143, 55%, 81%);
+$green-300: hsl(143, 55%, 71%);
+$green-400: hsl(143, 55%, 62%);
+$green-500: hsl(143, 55%, 46%);
+$green-600: hsl(143, 55%, 31%);
+$green-700: hsl(143, 55%, 15%);
 
-$yellow-100: #fdebd5;
-$yellow-200: #fbd6aa;
-$yellow-300: #f8c280;
-$yellow-400: #f6ad55;
-$yellow-500: #ec870c;
-$yellow-600: #9d5a08;
-$yellow-700: #4f2d04;
+$yellow-100: hsl(33, 90%, 91%);
+$yellow-200: hsl(33, 90%, 83%);
+$yellow-300: hsl(33, 90%, 74%);
+$yellow-400: hsl(33, 90%, 65%);
+$yellow-500: hsl(33, 90%, 49%);
+$yellow-600: hsl(33, 90%, 32%);
+$yellow-700: hsl(33, 90%, 16%);
 
-$red-100: #fee0e0;
-$red-200: #fec0c0;
-$red-300: #fda1a1;
-$red-400: #fc8181;
-$red-500: #fa2424;
-$red-600: #ba0404;
-$red-700: #5d0202;
+$red-100: hsl(0, 95%, 94%);
+$red-200: hsl(0, 95%, 87%);
+$red-300: hsl(0, 95%, 81%);
+$red-400: hsl(0, 95%, 75%);
+$red-500: hsl(0, 95%, 56%);
+$red-600: hsl(0, 95%, 37%);
+$red-700: hsl(0, 95%, 19%);
