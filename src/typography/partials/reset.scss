@@ -1,9 +1,10 @@
 html,
 body {
-	$baseline: 8px;
+	--baseline: 8px;
 
-	font-size: $baseline;
 	font-family: "Source Sans Pro", sans-serif;
+	font-size: var(--baseline);
 	line-height: 1;
+	font-weight: 400;
 	color: var(--anthracite-700);
 }
